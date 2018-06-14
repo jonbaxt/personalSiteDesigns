@@ -3,6 +3,8 @@
 .env
 .env.prod
 node_modules
+Uploader
+
 
 # dependencies
 /node_modules

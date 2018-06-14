@@ -1,15 +1,20 @@
 import React from 'react';
 import { StyleSheet, css } from 'aphrodite'
+import { Image, PageHeader } from 'react-bootstrap';
 import abPic from '../../Resources/about.jpg'
+
 
 function About(){
 
     return(
         <div className={css(st.fuzzIn)}>
-            <h1 className={css(st.marLef)}>About Me</h1>
+            <PageHeader>About Me <small>and why I code</small></PageHeader>
+            
+            {/* <h1 className={css(st.marLef)}>About Me</h1> */}
+            
             <div className={css(st.marTop, st.fl)}>
             <div className={css(st.boxSpacing)}>
-            <img src={abPic} alt='' className={css(st.picRes)} />
+            <Image src={abPic} responsive />
             </div>
             <div className={css(st.marTop, st.boxSpacing)}>
                 <h3>I'm a longtime lover of coding that recently have taken the plunge of after 6 years of working with the State of Utah, I took 3 months to focus and hone in on my skills of programming and coding into web developing.</h3>
@@ -39,7 +44,7 @@ const st = StyleSheet.create({
         width: '50%',
     },
     marTop: {
-        marginTop: '5px',
+        // marginTop: '5px',
         marginLeft: '10px',
     },
     fl:{
