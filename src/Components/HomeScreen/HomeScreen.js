@@ -1,7 +1,7 @@
 import React from 'react';
-
 import { StyleSheet, css } from 'aphrodite';
-import BootStrapCarousel from './BootStrapCarousel';
+// import BootStrapCarousel from './BootStrapCarousel';
+import SlickCaras from './SlickCaras';
 import { PageHeader } from 'react-bootstrap'
 
 class HomeScreen extends React.Component {
@@ -9,7 +9,10 @@ class HomeScreen extends React.Component {
     render(){
         return(<div className={css(st.fuzzIn, st.mainHome)}>
             <PageHeader>Jonathan Baxter <small>Web Developer</small></PageHeader>
-            <BootStrapCarousel />
+            
+            <SlickCaras />
+            
+            {/* <BootStrapCarousel /> */}
         </div>)
     }
 }

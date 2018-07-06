@@ -6,6 +6,7 @@ import About from './Components/AboutPage/About';
 import Skill from './Components/Skills/Skill';
 import Portfolio from './Components/Portfolio/Portfolio';
 import Contact from './Components/ContactPage/Contact';
+import Misc from './Components/Miscellaneous/Miscellaneous';
 
 export default (
     <Switch>
@@ -15,5 +16,6 @@ export default (
         <Route path='/portfolio' component={Portfolio} />
 
         <Route path='/contact' component={Contact} />
+        <Route path='/miscstuff' component={Misc} />
     </Switch>
 )

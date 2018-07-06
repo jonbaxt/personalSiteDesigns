@@ -34,6 +34,8 @@ export default class NavBarBootStrapped extends React.Component {
                         </NavDropdown> */}
                     </Nav>
                     <Nav pullRight>
+                        {/* <NavItem eventKey={3} href="#miscstuff">
+                            MiscThings}</NavItem> */}
                         <NavItem eventKey={2} href="https://www.linkedin.com/in/jonbaxt/">
                             <FontAwesomeIcon icon={faLinkedin} /></NavItem>
                         <NavItem eventKey={1} href="https://github.com/jonbaxt/">
