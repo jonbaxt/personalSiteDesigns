@@ -5,8 +5,12 @@ import solid from '@fortawesome/fontawesome-free-solid'
 import regular from '@fortawesome/fontawesome-free-regular'
 
 // import NavBar from './Components/NavBar/NavBar';
-import NavBarBooted from './Components/NavBar/NavBarBootStrapped';
-import routes from './routes';
+// import NavBarBooted from './Components/NavBar/NavBarBootStrapped';
+
+import TopSection from './Components/TopSection/TopSection';
+import AboutSection from './Components/AboutSection/AboutSection';
+import SkillsSection from './Components/Skills/SkillsSection';
+
 import './App.css';
 
 class App extends Component {
@@ -14,9 +18,9 @@ class App extends Component {
     fontawesome.library.add(brands, solid, regular)
     return (
       <div className="App">
-        {/* <NavBar /> */}
-        <NavBarBooted />
-        <div className='routeArea'>{routes}</div>
+        <TopSection />
+        <AboutSection />       
+        <SkillsSection /> 
       </div>
     );
   }

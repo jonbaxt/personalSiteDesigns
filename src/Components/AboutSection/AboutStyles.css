@@ -1,0 +1,31 @@
+.logoSizing {
+    width: 300px;
+    margin-left: 15px;
+}
+
+.uvuLogoSiz {
+    width: 300px;
+    /* height: 300px; */
+    /* margin-left: 15px; */
+    /* text-indent: -18%; */
+}
+
+.logoCont {
+    width: 300px;
+    height: 280px;
+    background: whitesmoke;
+    box-shadow: 4px 4px gray;
+}
+
+.flConCol {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.flRowAb {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
