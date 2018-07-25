@@ -1,7 +1,7 @@
 .skillsCont {
     margin: 0 auto;
     width: 80vw;
-    height: 280vh;
+    height: 580vh;
     /* display: grid; */
     display: flex;
     flex-direction: row;

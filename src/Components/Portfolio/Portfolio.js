@@ -1,13 +1,18 @@
 import React from 'react';
 
-import { PageHeader } from 'react-bootstrap'
-
+import '../HomeScreen/HomeScreen.css';
+import './Portfolio.css';
 
 export default function Portfolio(){
 
     return(
-        <div>
-            <PageHeader>My Portfolio<small> links and descriptions of my projects</small></PageHeader>
+        <div className='portfolioMain'>
+            <h1 className='h1Res padT'>Portfolio</h1>
+
+            <div class='portCont' >
+            
+            
+            </div>
         </div>
     )
 }

@@ -13,22 +13,15 @@ import devLogo from '../../Resources/Logos/devLogo.png';
 export default function AboutSection() {
 
     return (
-        <Parallax
-            blur={0}
-            bgImage={valImg}
-            bgImageAlt="Background Image"
-            strength={380}
-        >
-            <h1 className='h1Res h1Loc'>About</h1>
-            <div className='flCon' >
-
+        <div style={{ background: '#240404', paddingTop: '60px', paddingBottom: '60px' }}>
+            <h1 className='h1Res'>About</h1>
+            <div style={{ display: 'flex', flexDirction: 'row', alignItems: 'center', justifyContent: 'space-around' }}>
                 <div className='blurbCont' >
                     <p className='parSmall'>
-                        I'm a Web Developer specialized in Javascript, React, HTML, CSS and more with a history learning other coding languages from previous courses taken at UVU.</p>
+                        About Me
+I'm a Web Developer specializing in Javascript, React, HTML, CSS and many other languages and frameworks based off courses taken at DevMountain and UVU.</p>
                 </div>
-
                 <img src={portPic} alt='' className='imgArea' />
-
             </div>
 
             <div className='flRowAb moreTop' >
@@ -37,8 +30,8 @@ export default function AboutSection() {
                     <img src={UtahSeal} alt='' className='logoSizing' />
                 </div>
 
-                <div className='blurbCont heightCh' >
-                    <p className='parSmall' >Prior to Web Development I worked with the State of Utah in the department of human services using my Bachelors of Sociology from BYU-Idaho, which helped me learn skills in customer care and team building skills.  </p>
+                <div className='blurbCont' >
+                    <p className='parSmall' >Prior to Web Development I worked with the State of Utah in the department of human services using my Bachelors of Sociology from BYU-Idaho, which helped me learn skills in customer care and team building skills.   </p>
                 </div>
             </div>
 
@@ -54,12 +47,10 @@ export default function AboutSection() {
                 <img src={devLogo} alt='' className='logoSizing' />
 
                 <div className='blurbCont heightCh' >
-                    <p className='parSmall' >I love to figure out everything with code from front to back. I love to see how things work and that is why I love to always enhance my skills of being a full stack developer.</p>
+                    <p className='parSmall' >I love to understand all aspects of code, from front to back. I also love learning, and am always working on enhancing and updating my skills as a developer.</p>
                 </div>
 
             </div>
-
-            <div style={{ height: '40vh', width: '100vw' }} />
-        </Parallax>
+        </div>
     )
 }
