@@ -3,7 +3,9 @@ import '../HomeScreen/HomeScreen.css';
 import './SkillsSection.css';
 import '../Portfolio/Portfolio.css'
 import { Parallax } from 'react-parallax';
-import valImg3 from '../../Resources/The_Verge_Cubeometry_Wallpaper_Landscape.0.png';
+// import valImg from '../../Resources/The_Verge_Pixel_Falls_Wallpaper_Landscape.0.png';
+import valImg2 from '../../Resources/The_Verge_Singularity_Wallpaper_Landscape.0.png';
+// import valImg3 from '../../Resources/The_Verge_Cubeometry_Wallpaper_Landscape.0.png';
 
 import jsLog from '../../Resources/SkillsLogos/JSLogo.png';
 import htmlLog from '../../Resources/SkillsLogos/HTML5.png';
@@ -28,9 +30,9 @@ export default function SkillsSection() {
         <Parallax
             // className='parallaxTopArea'
             blur={0}
-            bgImage={valImg3}
+            bgImage={valImg2}
             bgImageAlt="Background Image"
-            strength={380}
+            strength={100}
         >
             <h1 className='h1Res h1Loc'>Skills</h1>
 

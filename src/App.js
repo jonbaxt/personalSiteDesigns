@@ -4,9 +4,6 @@ import brands from '@fortawesome/fontawesome-free-brands'
 import solid from '@fortawesome/fontawesome-free-solid'
 import regular from '@fortawesome/fontawesome-free-regular'
 
-// import NavBar from './Components/NavBar/NavBar';
-// import NavBarBooted from './Components/NavBar/NavBarBootStrapped';
-
 import TopSection from './Components/TopSection/TopSection';
 import AboutSection from './Components/AboutSection/AboutSection';
 import SkillsSection from './Components/Skills/SkillsSection';

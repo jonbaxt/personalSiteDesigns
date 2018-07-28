@@ -26,7 +26,7 @@ class HomeScreen extends React.Component {
                 <Parallax
                     // className='parallaxTopArea'
                     blur={0}
-                    bgImage={valImg3}
+                    bgImage={valImg}
                     bgImageAlt="Background Image"
                     strength={380}
                 >

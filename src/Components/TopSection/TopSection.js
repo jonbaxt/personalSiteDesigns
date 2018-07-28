@@ -4,9 +4,9 @@ import { Parallax } from 'react-parallax';
 // import about from '../../Resources/about.jpg';
 // import abPic from '../../Resources/about.jpg';
 // import portPic from '../../Resources/Resized.PNG'
-// import valImg from '../../Resources/The_Verge_Pixel_Falls_Wallpaper_Landscape.0.png'
+import valImg from '../../Resources/The_Verge_Pixel_Falls_Wallpaper_Landscape.0.png'
 // import valImg2 from '../../Resources/The_Verge_Singularity_Wallpaper_Landscape.0.png'
-import valImg3 from '../../Resources/The_Verge_Cubeometry_Wallpaper_Landscape.0.png'
+// import valImg3 from '../../Resources/The_Verge_Cubeometry_Wallpaper_Landscape.0.png'
 // import fisher from '../../Resources/fishing.jpg'
 
 export default function TopSection() {
@@ -15,8 +15,8 @@ export default function TopSection() {
         <div className='topSection'>
                 <Parallax
                     // className='parallaxTopArea'
-                    blur={0}
-                    bgImage={valImg3}
+                    blur={2}
+                    bgImage={valImg}
                     bgImageAlt="Background Image"
                     strength={380}
                 >
