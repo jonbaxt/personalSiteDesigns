@@ -1,10 +1,5 @@
 const express = require('express');
 const bodyParser = require('body-parser');
-// const session = require('express-session');
-// const passport = require('passport');
-// const Auth0Strategy = require('passport-auth0');
-// const massive = require('massive');
-// const con = require('./controller');
 
 
 // const aws = require('aws-sdk');

@@ -1,10 +1,10 @@
 import React from 'react';
-import { Parallax } from 'react-parallax';
+// import { Parallax } from 'react-parallax';
 import '../HomeScreen/HomeScreen.css';
 import './AboutStyles.css';
 
 import portPic from '../../Resources/Resized.PNG';
-import valImg from '../../Resources/The_Verge_Pixel_Falls_Wallpaper_Landscape.0.png';
+// import valImg from '../../Resources/The_Verge_Pixel_Falls_Wallpaper_Landscape.0.png';
 import BYUI from '../../Resources/Logos/BYUIdaho.png';
 import UtahSeal from '../../Resources/Logos/UtahSeal.png';
 import UVU from '../../Resources/Logos/UVU.png';

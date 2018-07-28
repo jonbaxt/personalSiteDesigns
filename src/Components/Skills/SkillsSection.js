@@ -1,6 +1,7 @@
 import React from 'react';
 import '../HomeScreen/HomeScreen.css';
 import './SkillsSection.css';
+import '../Portfolio/Portfolio.css'
 import { Parallax } from 'react-parallax';
 import valImg3 from '../../Resources/The_Verge_Cubeometry_Wallpaper_Landscape.0.png';
 
@@ -68,23 +69,24 @@ export default function SkillsSection() {
 
             
             <span className='iconContWide' >
-            Related Skills from other Studies
-            C++
+            <p className='pRes cen noInd colInvert' >
+            Related Skills from other Studies<br /><br />
+            C++<br />
 
-            C#
+            C# <br />
 
-            Java
+            Java <br /><br />
 
-            And Courses in:
+            And Courses in:<br /><br />
 
-            Computer Architecture,
+            Computer Architecture <br />
 
-            Database with Oracle,
+            SQL Database with Oracle <br />
 
-            Linux - Intro and Advanced,
+            Linux Administation - Intro and Advanced <br />
 
-            and Computer Networking
-            
+            Computer Networking <br />
+            </p>
             </span>
             
 
