@@ -1,7 +1,20 @@
 import React from 'react';
 
+import FontAwesomeIcon from '@fortawesome/react-fontawesome';
+
+
+
+import faLinkedin from '@fortawesome/fontawesome-free-brands/faLinkedin'
+import faGithub from '@fortawesome/fontawesome-free-brands/faGithub'
+// import faNpm from '@fortawesome/fontawesome-free-brands/faNpm'
+// import faReact from '@fortawesome/fontawesome-free-brands/faReact'
+// import faJs from '@fortawesome/fontawesome-free-brands/faJs'
+// import faHtml5 from '@fortawesome/fontawesome-free-brands/faHtml5'
+// import faDigitalOcean from '@fortawesome/fontawesome-free-brands/faDigitalOcean'
+// import faCss3 from '@fortawesome/fontawesome-free-brands/faCss3'
+
 import '../HomeScreen/HomeScreen.css';
-// import './Contact.css';
+import './Contact.css';
 import '../Portfolio/Portfolio.css';
 
 export default function Contact() {
@@ -11,8 +24,14 @@ export default function Contact() {
             <h1 className='h1Res padT'>Contact</h1>
 
             <p className='pRes cen noInd'>I'd love to hear from you! Feel free to contact me if you're interested in utilizing my skills.</p><br /><br />
-            <p className='pRes cen noInd'>jonbaxt.gmail.com</p><br /><br />
+            <p className='pRes cen noInd'>jonbaxt.gmail.com</p><br />
 
+            <span style={{display: 'flex', justifyContent: 'center'}} >
+                <a href='https://www.linkedin.com/in/jonbaxt/' target="_blank" ><FontAwesomeIcon icon={faLinkedin} className='fontAwes' /></a>
+                <a href='https://github.com/jonbaxt' target="_blank" ><FontAwesomeIcon icon={faGithub} className='fontAwes' /></a>
+            </span>
+            <br />
+            <br />
         </div>
     )
 }
