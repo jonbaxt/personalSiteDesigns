@@ -64,7 +64,7 @@ export default function Portfolio() {
                     <li>Was given the nickname of the group, 'the tech guy' since I helped solve problems throughout from bugs in VS Code.</li>
                 </ul>
 
-                <a href='https://www.jonbaxt.me/' className='noLine'><h1 className='h1ResPort padT' >Parental Gaming Reviews</h1></a>
+                {/* <a href='https://www.jonbaxt.me/' className='noLine'><h1 className='h1ResPort padT' >Parental Gaming Reviews</h1></a>
 
                 <p className='pRes'>Site created as a place for parents to submit reviews for games on whether or not they feel the game is appropriate for kids.</p>
                 
@@ -72,7 +72,7 @@ export default function Portfolio() {
                 
                 <p className='pRes'></p>
                 
-                <p className='pRes'></p>
+                <p className='pRes'></p> */}
 
             </div>
         </div>

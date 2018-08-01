@@ -10,7 +10,7 @@
 .portCont {
     margin: 0 auto;
     width: 80vw;
-    height: 580vh;
+    /* height: 580vh; */
     /* display: grid; */
     display: flex;
     flex-direction: column;

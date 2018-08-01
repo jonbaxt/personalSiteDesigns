@@ -17,9 +17,8 @@ export default function AboutSection() {
             <h1 className='h1Res'>About</h1>
             <div style={{ display: 'flex', flexDirction: 'row', alignItems: 'center', justifyContent: 'space-around' }}>
                 <div className='blurbCont' >
-                    <p className='parSmall'>
-                        About Me
-I'm a Web Developer specializing in Javascript, React, HTML, CSS and many other languages and frameworks based off courses taken at DevMountain and UVU.</p>
+                    <p id='fB' className='pRes'>
+                        I'm a Web Developer specializing in Javascript, React, HTML, CSS and many other languages and frameworks based off courses taken at DevMountain and UVU.</p>
                 </div>
                 <img src={portPic} alt='' className='imgArea' />
             </div>
@@ -31,14 +30,14 @@ I'm a Web Developer specializing in Javascript, React, HTML, CSS and many other 
                 </div>
 
                 <div className='blurbCont' >
-                    <p className='parSmall' >Prior to Web Development I worked with the State of Utah in the department of human services using my Bachelors of Sociology from BYU-Idaho, which helped me learn skills in customer care and team building skills.   </p>
+                    <p id='fB' className='pRes' >Prior to Web Development I worked with the State of Utah in the department of human services using my Bachelors of Sociology from BYU-Idaho, which helped me learn skills in customer care and team building skills.   </p>
                 </div>
             </div>
 
             <div className='flCon moreTop' >
 
                 <div className='blurbCont heightCh' >
-                    <p className='parSmall' >I have studied coding independently and have taken courses from UVU and DevMountain to enhance my skills as a web developer.</p>
+                    <p id='fB' className='pRes' >I have studied coding independently and have taken courses from UVU and DevMountain to enhance my skills as a web developer.</p>
                 </div>
                 <span className='logoCont' ><img src={UVU} alt='' className='uvuLogoSiz' /></span>
             </div>
@@ -47,7 +46,7 @@ I'm a Web Developer specializing in Javascript, React, HTML, CSS and many other 
                 <img src={devLogo} alt='' className='logoSizing' />
 
                 <div className='blurbCont heightCh' >
-                    <p className='parSmall' >I love to understand all aspects of code, from front to back. I also love learning, and am always working on enhancing and updating my skills as a developer.</p>
+                    <p id='fB' className='pRes' >I love to understand all aspects of code, from front to back. I also love learning, and am always working on enhancing and updating my skills as a developer.</p>
                 </div>
 
             </div>
