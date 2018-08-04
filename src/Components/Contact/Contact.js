@@ -27,8 +27,8 @@ export default function Contact() {
             <p className='pRes cen noInd'>jonbaxt.gmail.com</p><br />
 
             <span style={{display: 'flex', justifyContent: 'center'}} >
-                <a href='https://www.linkedin.com/in/jonbaxt/' target="_blank" ><FontAwesomeIcon icon={faLinkedin} className='fontAwes' /></a>
-                <a href='https://github.com/jonbaxt' target="_blank" ><FontAwesomeIcon icon={faGithub} className='fontAwes' /></a>
+                <a href='https://www.linkedin.com/in/jonbaxt/' target="_blank" rel="noopener noreferrer" ><FontAwesomeIcon icon={faLinkedin} className='fontAwes' /></a>
+                <a href='https://github.com/jonbaxt' target="_blank" rel="noopener noreferrer" ><FontAwesomeIcon icon={faGithub} className='fontAwes' /></a>
             </span>
             <br />
             <br />
