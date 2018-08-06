@@ -77,6 +77,8 @@ export default function Portfolio() {
 
                 <p className='pRes'>Website uses information stored on IGDB.com's API obtained through axios calls. To allow less queries to the API, information used for the site is stored in my PostgreSQL database after new game is added to site for reviews.</p>
  
+                <p className='pRes'>Things I learned from this project: button styling with disabling the button, querying from an external API to obtain information for my server, adding a posting forum style and everything else I've done previously using React and JavaScript.</p>
+
                 <div className='picContainer'><img src={HomeScreen} alt='' className='picSizing' /></div><br />
 
                 <p className='pRes'>Layout of the site is designed to be like a forum or blog. The site features searching the API for a new game to add. I implemented button disabled capability when there is no text present in the search bar on the home page. PostgreSQL database stores information from the IGDB API as well as user reviews that can be posted to current games on the website.<br /><br />The following images shows the layout of a game with information from IGDB and user reviews.</p>
