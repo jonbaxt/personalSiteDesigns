@@ -87,3 +87,12 @@
     /* text-shadow: 1px 0.5px white; */
     text-shadow: 0px 0px white;
 }
+
+.picSizing {
+    width: 80%;
+}
+.picContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

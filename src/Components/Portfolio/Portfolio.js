@@ -3,6 +3,11 @@ import React from 'react';
 import '../HomeScreen/HomeScreen.css';
 import './Portfolio.css';
 
+import MainPage from '../../Resources/ParGamRev/Game Review Page.PNG';
+import HomeScreen from '../../Resources/ParGamRev/HomeScreen.PNG';
+import PostNewPost from '../../Resources/ParGamRev/Posting a new review.PNG';
+import ReviewSec from '../../Resources/ParGamRev/Reviews Section.PNG';
+
 export default function Portfolio() {
 
     return (
@@ -64,15 +69,29 @@ export default function Portfolio() {
                     <li>Was given the nickname of the group, 'the tech guy' since I helped solve problems throughout from bugs in VS Code.</li>
                 </ul>
 
-                {/* <a href='https://www.jonbaxt.me/' className='noLine'><h1 className='h1ResPort padT' >Parental Gaming Reviews</h1></a>
+
+
+                <a href='https://www.parentalgamingreviews.jonbaxt.me/' className='noLine'><h1 className='h1ResPort padT' >Parental Gaming Reviews</h1></a>
 
                 <p className='pRes'>Site created as a place for parents to submit reviews for games on whether or not they feel the game is appropriate for kids.</p>
-                
+
                 <p className='pRes'>Website uses information stored on IGDB.com's API obtained through axios calls. To allow less queries to the API, information used for the site is stored in my PostgreSQL database after new game is added to site for reviews.</p>
+ 
+                <div className='picContainer'><img src={HomeScreen} alt='' className='picSizing' /></div><br />
+
+                <p className='pRes'>Layout of the site is designed to be like a forum or blog. The site features searching the API for a new game to add. I implemented button disabled capability when there is no text present in the search bar on the home page. PostgreSQL database stores information from the IGDB API as well as user reviews that can be posted to current games on the website.<br /><br />The following images shows the layout of a game with information from IGDB and user reviews.</p>
+
+                <div className='picContainer'><img src={MainPage} alt='' className='picSizing' /></div>
+                <div className='picContainer'><img src={PostNewPost} alt='' className='picSizing' /></div>
+                <div className='picContainer'><img src={ReviewSec} alt='' className='picSizing' /></div><br />
+                
+                <p className='pRes cen noBot lineUnder'>Technologies used in creation</p>
+                <p className='pRes cen noInd'>HTML | CSS | React | Javascript | Node.js | Express.js | Massive | Slick | Lodash | Aria tag for emojis | Semantic HTML Layout </p><br />
+
                 
                 <p className='pRes'></p>
-                
-                <p className='pRes'></p> */}
+
+                <p className='pRes'></p>
 
             </div>
         </div>
