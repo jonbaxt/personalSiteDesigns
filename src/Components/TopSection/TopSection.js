@@ -13,7 +13,7 @@ import Mountains from '../../Resources/Mountains.jpg';
 export default function TopSection() {
 
     return (
-        <div className='topSection'>
+        <div className='topSection' style={{width: '100%'}}>
                 <Parallax
                     // className='parallaxTopArea'
                     blur={0}
@@ -23,7 +23,7 @@ export default function TopSection() {
                 >
                     <h1 className='h1Res h1Loc'>Jonathan Baxter</h1>
                     <h1 className='h1SecRes h1Loc2'>Web Developer</h1>
-                    <div style={{ height: '78vh', width: '100vw' }} />
+                    <div style={{ height: '78vh', width: '98.9vw' }} />
 
                 </Parallax>
         </div>
