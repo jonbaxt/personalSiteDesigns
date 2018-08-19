@@ -28,15 +28,23 @@ export default function Portfolio() {
                 <br />
                 <p className='pRes cen noInd'>The following video is a walk through of the site</p>
 
-                <iframe width="846" height="488" style={{ margin: '0 auto' }}
+                <iframe 
+                // width="846" 
+                height="488" 
+                style={{ margin: '0 auto' }}
                     src="https://www.youtube.com/embed/cT3LC5uyNrA"
+                    id="videoStyle"
                     title='Served up walkthrough' frameBorder="0"
                     allow="autoplay; encrypted-media"
                     allowFullScreen></iframe>
                 <br />
                 <p className='pRes cen noInd'>This video highlights the navigation of the site and the site's result pages.</p>
 
-                <iframe width="846" height="488" src="https://www.youtube.com/embed/mXc97QEu92M"
+                <iframe 
+                // width="846" 
+                height="488"
+                    src="https://www.youtube.com/embed/mXc97QEu92M"
+                    id="videoStyle"
                     style={{ margin: '0 auto' }}
                     title='Graphs and others'
                     frameborder="0"
@@ -55,11 +63,15 @@ export default function Portfolio() {
 
                 <p className='pRes cen noInd'>The following video is a walk through of the site</p>
 
-                <iframe width="846" height="488" src="https://www.youtube.com/embed/niJ5m1T6hrQ"
-                    style={{ margin: '0 auto' }}
-                    title='BIA'
-                    frameBorder="0"
-                    allow="autoplay; encrypted-media" allowFullScreen></iframe>
+                <iframe 
+                // width="846" 
+                height="488" 
+                src="https://www.youtube.com/embed/niJ5m1T6hrQ"
+                id="videoStyle"    
+                style={{ margin: '0 auto' }}
+                title='BIA'
+                frameBorder="0"
+                allow="autoplay; encrypted-media" allowFullScreen></iframe>
 
                 <p className='pRes slightInd'>My contributions to the project were:</p>
                 <ul className='pRes listIndent'>

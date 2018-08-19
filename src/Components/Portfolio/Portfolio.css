@@ -96,3 +96,9 @@
     align-items: center;
     justify-content: center;
 }
+
+#videoStyle {
+    width: 80%;
+
+    height: 488;
+}
