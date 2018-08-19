@@ -1,8 +1,7 @@
 .skillsCont {
     margin: 0 auto;
     width: 80vw;
-    height: 580vh;
-    /* display: grid; */
+    /* height: 580vh; */
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -17,7 +16,7 @@
     align-items: center;
     width: 300px;
     height: 300px;
-    margin: 80px;
+    margin: 20px;
     background: rgb(219,226,255);
     box-shadow: 4px 4px rgb(235, 238, 255);
 }

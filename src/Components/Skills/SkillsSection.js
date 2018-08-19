@@ -23,6 +23,7 @@ import chartJsLog from '../../Resources/SkillsLogos/Chartjs.png';
 import parLogo from '../../Resources/SkillsLogos/parralax.png';
 import BootStLog from '../../Resources/SkillsLogos/Bootstrap.png';
 import slickLogo from '../../Resources/SkillsLogos/slick.gif';
+import sassLogo from '../../Resources/SkillsLogos/sass.png';
 
 
 export default function SkillsSection() {
@@ -39,59 +40,61 @@ export default function SkillsSection() {
 
 
             <div className='skillsCont' >
-            
-            <span className='iconCont' ><img src={jsES6} alt='' className='skillLogoResExtra' /></span>
 
-            <span className='iconCont' ><img src={htmlLog} alt='' className='skillLogoRes' /></span>
+                <span className='iconCont' ><img src={jsES6} alt='' className='skillLogoResExtra' /></span>
 
-            <span className='iconCont' ><img src={cssLog} alt='' className='skillLogoRes' /></span>
+                <span className='iconCont' ><img src={htmlLog} alt='' className='skillLogoRes' /></span>
 
-            <span className='iconCont' ><img src={reactLog} alt='' className='skillLogoRes' /></span>
-            
-            <span className='iconCont' ><img src={jsLog} alt='' className='skillLogoRes' /></span>
-            
-            <span className='iconCont' ><img src={vueLog} alt='' className='skillLogoResExtra' /></span>
+                <span className='iconCont' ><img src={cssLog} alt='' className='skillLogoRes' /></span>
 
-            <span className='iconCont' ><img src={nodeJs} alt='' className='skillLogoRes' /></span>
-            
-            <span className='iconCont' ><img src={massLogo} alt='' className='skillLogoRes' /></span>
-            
-            <span className='iconCont' ><img src={postGresLogo} alt='' className='skillLogoRes' /></span>
-            
-            <span className='iconCont' ><img src={reduxLog} alt='' className='skillLogoRes' /></span>
-            
-            <span className='iconCont' ><img src={passportLog} alt='' className='skillLogoRes' /></span>
-            
-            <span className='iconCont' ><img src={chartJsLog} alt='' className='skillLogoRes' /></span>
-            
-            <span className='iconCont' ><img src={parLogo} alt='' className='skillLogoRes' /></span>
-            
-            <span className='iconCont' ><img src={BootStLog} alt='' className='skillLogoRes' /></span>
-            
-            <span className='iconCont' ><img src={slickLogo} alt='' className='skillLogoRes' /></span>
+                <span className='iconCont' ><img src={reactLog} alt='' className='skillLogoRes' /></span>
 
-            
-            <span className='iconContWide' >
-            <p className='pRes cen noInd colInvert' >
-            Related Skills from other Studies<br /><br />
-            C++<br />
+                <span className='iconCont' ><img src={jsLog} alt='' className='skillLogoRes' /></span>
 
-            C# <br />
+                <span className='iconCont' ><img src={vueLog} alt='' className='skillLogoResExtra' /></span>
 
-            Java <br /><br />
+                <span className='iconCont' ><img src={nodeJs} alt='' className='skillLogoRes' /></span>
 
-            And Courses in:<br /><br />
+                <span className='iconCont' ><img src={massLogo} alt='' className='skillLogoRes' /></span>
 
-            Computer Architecture <br />
+                <span className='iconCont' ><img src={postGresLogo} alt='' className='skillLogoRes' /></span>
 
-            SQL Database with Oracle <br />
+                <span className='iconCont' ><img src={reduxLog} alt='' className='skillLogoRes' /></span>
 
-            Linux Administation - Intro and Advanced <br />
+                <span className='iconCont' ><img src={passportLog} alt='' className='skillLogoRes' /></span>
 
-            Computer Networking <br />
-            </p>
-            </span>
-            
+                <span className='iconCont' ><img src={chartJsLog} alt='' className='skillLogoRes' style={{ width: '180px' }} /></span>
+
+                <span className='iconCont' ><img src={parLogo} alt='' className='skillLogoRes' /></span>
+
+                <span className='iconCont' ><img src={sassLogo} alt='' className='skillLogoRes' /></span>
+
+                <span className='iconCont' ><img src={BootStLog} alt='' className='skillLogoRes' /></span>
+
+                <span className='iconCont' ><img src={slickLogo} alt='' className='skillLogoRes' /></span>
+
+
+                <span className='iconContWide' >
+                    <p className='pRes cen noInd colInvert' >
+                        Related Skills from other Studies<br /><br />
+                        C++<br />
+
+                        C# <br />
+
+                        Java <br /><br />
+
+                        And Courses in:<br /><br />
+
+                        Computer Architecture <br />
+
+                        SQL Database with Oracle <br />
+
+                        Linux Administation - Intro and Advanced <br />
+
+                        Computer Networking <br />
+                    </p>
+                </span>
+
 
             </div>
 
