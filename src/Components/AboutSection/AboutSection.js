@@ -16,11 +16,11 @@ export default function AboutSection() {
         <div style={{ background: '#240404', paddingTop: '60px', paddingBottom: '60px' }}>
             <h1 className='h1Res'>About</h1>
             <div style={{ display: 'flex', flexDirction: 'row', alignItems: 'center', justifyContent: 'space-around' }}>
-                <div className='blurbCont' >
+                <div className='abCont' ><br /><br />
                     <p id='fB' className='pRes'>
-                        I'm a Web Developer specializing in Javascript, React, HTML, CSS and many other languages and frameworks based off courses taken at DevMountain and UVU.</p>
+                        I'm a Web Developer specializing in Javascript, React, HTML, CSS and many other languages and frameworks based off courses taken at DevMountain and UVU.</p><br /><br />
                 </div>
-                <img src={portPic} alt='' className='imgArea' />
+                <img src={portPic} alt='' className='abImg' />
             </div>
 
             <div className='flRowAb moreTop' >
@@ -29,15 +29,15 @@ export default function AboutSection() {
                     <img src={UtahSeal} alt='' className='logoSizing' />
                 </div>
 
-                <div className='blurbCont' >
-                    <p id='fB' className='pRes' >Prior to Web Development I worked with the State of Utah in the department of human services using my Bachelors of Sociology from BYU-Idaho, which helped me learn skills in customer care and team building skills.   </p>
+                <div className='abCont' ><br /><br />
+                    <p id='fB' className='pRes' >Prior to Web Development I worked with the State of Utah in the department of human services using my Bachelors of Sociology from BYU-Idaho, which helped me learn skills in customer care and team building skills.   </p><br /><br />
                 </div>
             </div>
 
             <div className='flCon moreTop' >
 
-                <div className='blurbCont heightCh' >
-                    <p id='fB' className='pRes' >I have studied coding independently and have taken courses from UVU and DevMountain to enhance my skills as a web developer.</p>
+                <div className='abCont' ><br /><br />
+                    <p id='fB' className='pRes' >I have studied coding independently and have taken courses from UVU and DevMountain to enhance my skills as a web developer.</p><br /><br />
                 </div>
                 <span className='logoCont' ><img src={UVU} alt='' className='uvuLogoSiz' /></span>
             </div>
@@ -45,8 +45,8 @@ export default function AboutSection() {
             <div className='flCon moreTop' >
                 <img src={devLogo} alt='' className='logoSizing' />
 
-                <div className='blurbCont heightCh' >
-                    <p id='fB' className='pRes' >I love to understand all aspects of code, from front to back. I also love learning, and am always working on enhancing and updating my skills as a developer.</p>
+                <div className='abCont' ><br /><br />
+                    <p id='fB' className='pRes' >I love to understand all aspects of code, from front to back. I also love learning, and am always working on enhancing and updating my skills as a developer.</p><br /><br />
                 </div>
 
             </div>
