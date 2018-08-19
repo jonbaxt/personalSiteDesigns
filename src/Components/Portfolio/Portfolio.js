@@ -7,6 +7,7 @@ import MainPage from '../../Resources/ParGamRev/Game Review Page.PNG';
 import HomeScreen from '../../Resources/ParGamRev/HomeScreen.PNG';
 import PostNewPost from '../../Resources/ParGamRev/Posting a new review.PNG';
 import ReviewSec from '../../Resources/ParGamRev/Reviews Section.PNG';
+import NSCSite from '../../Resources/NSCSite/NSCStyleClone.PNG';
 
 export default function Portfolio() {
 
@@ -76,7 +77,7 @@ export default function Portfolio() {
                 <p className='pRes'>Site created as a place for parents to submit reviews for games on whether or not they feel the game is appropriate for kids.</p>
 
                 <p className='pRes'>Website uses information stored on IGDB.com's API obtained through axios calls. To allow less queries to the API, information used for the site is stored in my PostgreSQL database after new game is added to site for reviews.</p>
- 
+
                 <p className='pRes'>Things I learned from this project: button styling with disabling the button, querying from an external API to obtain information for my server, adding a posting forum style and everything else I've done previously using React and JavaScript.</p>
 
                 <div className='picContainer'><img src={HomeScreen} alt='' className='picSizing' /></div><br />
@@ -86,11 +87,22 @@ export default function Portfolio() {
                 <div className='picContainer'><img src={MainPage} alt='' className='picSizing' /></div>
                 <div className='picContainer'><img src={PostNewPost} alt='' className='picSizing' /></div>
                 <div className='picContainer'><img src={ReviewSec} alt='' className='picSizing' /></div><br />
-                
+
                 <p className='pRes cen noBot lineUnder'>Technologies used in creation</p>
                 <p className='pRes cen noInd'>HTML | CSS | React | Javascript | Node.js | Express.js | Massive | Slick | Lodash | Aria tag for emojis | Semantic HTML Layout </p><br />
 
-                
+
+                <a href='https://nscstyleclone.jonbaxt.me/' className='noLine'><h1 className='h1ResPort padT' >Naval Building College SASS Clone</h1></a>
+
+                <p className='pRes'>Site created to highlight skills of using SASS design layout and using a SASS preprocessor to create CSS from SCSS stylesheets.</p>
+
+                <p className='pRes'>Does not contain functionality of the original site. Purpose of build was to practice modern website design and creating a layout that emphasizes less copying of code and making a stylesheet that flows more showing scope of where the code is contained in the website for easier readability.</p>
+
+                <p className='pRes cen noBot lineUnder'>Technologies used in creation</p>
+                <p className='pRes cen noInd'>HTML | CSS | React | Javascript | Node.js | Express.js | SASS | Node-SASS-Chokidar | NPM-Run-All  </p><br />
+
+                <div className='picContainer'><img src={NSCSite} alt='' className='picSizing' /></div>
+
                 <p className='pRes'></p>
 
                 <p className='pRes'></p>
