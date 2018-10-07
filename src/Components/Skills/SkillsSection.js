@@ -1,4 +1,5 @@
 import React from 'react';
+import ScrollAnimation from 'react-animate-on-scroll';
 import '../HomeScreen/HomeScreen.css';
 import './SkillsSection.css';
 import '../Portfolio/Portfolio.css'
@@ -36,7 +37,8 @@ export default function SkillsSection() {
             bgImageAlt="Background Image"
             strength={300}
         >
-            <h1 className='h1Res h1Loc'>Skills</h1>
+            <ScrollAnimation animateIn="pulse">
+            <h1 className='h1Res h1Loc'>Skills</h1></ScrollAnimation>
 
 
             <div className='skillsCont' >

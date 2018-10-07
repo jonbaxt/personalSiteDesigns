@@ -1,5 +1,5 @@
 import React from 'react';
-
+import ScrollAnimation from 'react-animate-on-scroll';
 import '../HomeScreen/HomeScreen.css';
 import './Portfolio.css';
 
@@ -13,8 +13,9 @@ export default function Portfolio() {
 
     return (
         <div className='portfolioMain'>
+        <ScrollAnimation animateIn="pulse">
             <h1 className='h1Res padT'>Projects</h1>
-
+            </ScrollAnimation>
             <div className='portCont' >
                 <a href='https://www.servedupsurveys.jonbaxt.me/#/Dashboard' className='noLine'><h1 className='h1ResPort padT' >Served Up Surveys</h1></a>
                 <p className='pRes'>         A website built for a visitor to create and/or take surveys and manipulate or use the data in a variety of ways.</p>

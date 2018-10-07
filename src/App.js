@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 // import { NavHashLink as NavLink } from 'react-router-hash-link';
+import "animate.css/animate.min.css";
 import fontawesome from '@fortawesome/fontawesome';
 import brands from '@fortawesome/fontawesome-free-brands';
 import solid from '@fortawesome/fontawesome-free-solid';

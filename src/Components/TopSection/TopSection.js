@@ -1,6 +1,8 @@
 import React from 'react';
 import './TopSection.css'
 import { Parallax } from 'react-parallax';
+import ScrollAnimation from 'react-animate-on-scroll';
+
 // import about from '../../Resources/about.jpg';
 // import abPic from '../../Resources/about.jpg';
 // import portPic from '../../Resources/Resized.PNG'
@@ -21,8 +23,9 @@ export default function TopSection() {
                     bgImageAlt="Background Image"
                     strength={380}
                 >
+                    <ScrollAnimation animateIn="fadeInUp" animateOut="fadeOutUp" >
                     <h1 className='h1Res h1Loc'>Jonathan Baxter</h1>
-                    <h1 className='h1SecRes h1Loc2'>Web Developer</h1>
+                    <h1 className='h1SecRes h1Loc2'>Web Developer</h1></ScrollAnimation>
                     <div style={{ height: '78vh', width: '98.9vw' }} />
 
                 </Parallax>
