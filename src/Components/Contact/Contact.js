@@ -1,11 +1,11 @@
 import React from 'react';
 import ScrollAnimation from 'react-animate-on-scroll';
-import FontAwesomeIcon from '@fortawesome/react-fontawesome';
+
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import {faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons';
 
 
-
-import faLinkedin from '@fortawesome/fontawesome-free-brands/faLinkedin'
-import faGithub from '@fortawesome/fontawesome-free-brands/faGithub'
+// import faGithub from '@fortawesome/fontawesome-free-brands/faGithub'
 // import faNpm from '@fortawesome/fontawesome-free-brands/faNpm'
 // import faReact from '@fortawesome/fontawesome-free-brands/faReact'
 // import faJs from '@fortawesome/fontawesome-free-brands/faJs'
