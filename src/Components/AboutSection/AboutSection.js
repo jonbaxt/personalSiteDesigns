@@ -1,5 +1,6 @@
 import React from 'react';
 import ScrollAnimation from 'react-animate-on-scroll';
+import ScrollableAnchor from 'react-scrollable-anchor';
 // import { Parallax } from 'react-parallax';
 import '../HomeScreen/HomeScreen.css';
 import './AboutStyles.css';
@@ -15,9 +16,11 @@ export default function AboutSection() {
 
     return (
         <div style={{ background: '#240404', paddingTop: '60px', paddingBottom: '60px' }}>
-            <ScrollAnimation animateIn="pulse">
-            <h1 className='h1Res'>About</h1>
-            </ScrollAnimation>
+            <ScrollableAnchor id={'aboutSection'} >
+                <ScrollAnimation animateIn="pulse">
+                    <h1 className='h1Res'>About</h1>
+                </ScrollAnimation>
+            </ScrollableAnchor>
             <div style={{ display: 'flex', flexDirction: 'row', alignItems: 'center', justifyContent: 'space-around' }}>
                 <div className='abCont' ><br /><br />
                     <p id='fB' className='pRes'>

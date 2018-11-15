@@ -1,5 +1,6 @@
 import React from 'react';
 import ScrollAnimation from 'react-animate-on-scroll';
+import ScrollableAnchor from 'react-scrollable-anchor';
 import '../HomeScreen/HomeScreen.css';
 import './Portfolio.css';
 
@@ -13,9 +14,12 @@ export default function Portfolio() {
 
     return (
         <div className='portfolioMain'>
-        <ScrollAnimation animateIn="pulse">
-            <h1 className='h1Res padT'>Projects</h1>
-            </ScrollAnimation>
+            <ScrollableAnchor id={'projectsSection'}>
+                <ScrollAnimation animateIn="pulse">
+                    <h1 className='h1Res padT'>Projects</h1>
+                </ScrollAnimation>
+            </ScrollableAnchor>
+
             <div className='portCont' >
                 <a href='https://www.servedupsurveys.jonbaxt.me/#/Dashboard' className='noLine'><h1 className='h1ResPort padT' >Served Up Surveys</h1></a>
                 <p className='pRes'>         A website built for a visitor to create and/or take surveys and manipulate or use the data in a variety of ways.</p>
@@ -29,10 +33,10 @@ export default function Portfolio() {
                 <br />
                 <p className='pRes cen noInd'>The following video is a walk through of the site</p>
 
-                <iframe 
-                // width="846" 
-                height="488" 
-                style={{ margin: '0 auto' }}
+                <iframe
+                    // width="846" 
+                    height="488"
+                    style={{ margin: '0 auto' }}
                     src="https://www.youtube.com/embed/cT3LC5uyNrA"
                     id="videoStyle"
                     title='Served up walkthrough' frameBorder="0"
@@ -41,9 +45,9 @@ export default function Portfolio() {
                 <br />
                 <p className='pRes cen noInd'>This video highlights the navigation of the site and the site's result pages.</p>
 
-                <iframe 
-                // width="846" 
-                height="488"
+                <iframe
+                    // width="846" 
+                    height="488"
                     src="https://www.youtube.com/embed/mXc97QEu92M"
                     id="videoStyle"
                     style={{ margin: '0 auto' }}
@@ -64,15 +68,15 @@ export default function Portfolio() {
 
                 <p className='pRes cen noInd'>The following video is a walk through of the site</p>
 
-                <iframe 
-                // width="846" 
-                height="488" 
-                src="https://www.youtube.com/embed/niJ5m1T6hrQ"
-                id="videoStyle"    
-                style={{ margin: '0 auto' }}
-                title='BIA'
-                frameBorder="0"
-                allow="autoplay; encrypted-media" allowFullScreen></iframe>
+                <iframe
+                    // width="846" 
+                    height="488"
+                    src="https://www.youtube.com/embed/niJ5m1T6hrQ"
+                    id="videoStyle"
+                    style={{ margin: '0 auto' }}
+                    title='BIA'
+                    frameBorder="0"
+                    allow="autoplay; encrypted-media" allowFullScreen></iframe>
 
                 <p className='pRes slightInd'>My contributions to the project were:</p>
                 <ul className='pRes listIndent'>
