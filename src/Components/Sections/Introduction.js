@@ -9,18 +9,21 @@ import landscape from '../../Resources/LandScape-Riccardo-Chiarini.jpg'
 import turkey from '../../Resources/turkey.jpg';
 import waterfall from '../../Resources/waterfall.jpg';
 
-export default function TopSection() {
+
+export default function Introduction() {
 
     return (
         <div className={css(styles.outer)}>
             <ScrollableAnchor id={'introSection'}>
                 <p className={css(styles.hiddenForTag)}>Hidden</p>
             </ScrollableAnchor>
-                <BackgroundSlideshow images={[image1, city, landscape, turkey, waterfall]} />z
             <div className={css(styles.main)}>
+                <BackgroundSlideshow images={[image1, city, landscape, turkey, waterfall]} />
                 <h1 className={css(styles.bigFont)}>Jonathan Baxter</h1>
 
                 <h1 className={css(styles.lessBig, styles.gapBetween)}>Web Developer</h1>
+
+
             </div>
         </div>
     )

@@ -5,10 +5,10 @@ import { configureAnchors } from 'react-scrollable-anchor';
 import "animate.css/animate.min.css";
 
 import TopSection from './Components/TopSection/TopSection';
-import AboutSection from './Components/AboutSection/AboutSection';
-import SkillsSection from './Components/Skills/SkillsSection';
-import Portfolio from './Components/Portfolio/Portfolio';
-import Contact from './Components/Contact/Contact';
+import About from './Components/Sections/About';
+import Skills from './Components/Sections/Skills';
+import Projects from './Components/Sections/Projects';
+import Contact from './Components/Sections/Contact';
 
 import './App.css';
 
@@ -31,11 +31,10 @@ class App extends Component {
           </div>
         </div>
         <TopSection />
-        <AboutSection />
+        <About />
+        <Skills />
+        <Projects />
 
-        <SkillsSection />
-
-        <Portfolio />
 
         <Contact />
       </div>
