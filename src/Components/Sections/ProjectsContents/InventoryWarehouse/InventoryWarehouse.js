@@ -3,7 +3,7 @@ import { StyleSheet, css } from 'aphrodite';
 // import {} from 'react-slick';
 // import {} from '';
 
-import { invLink, invText1, invText2, invText3, technologiesIntroText, technologiesUsed } from './InventoryText';
+import { invLink, invText1, invText2, invText3, technologiesIntroText, technologiesUsed, vid1Intro, vidLink1, vid2Intro, vidLink2, vid2Outro } from './InventoryText';
 import HomeScreenPic from '../../../../Resources/invWarehouse/ScreenShotHomeScreenpng.png'
 
 export default function InventoryWarehouse() {
@@ -15,10 +15,10 @@ export default function InventoryWarehouse() {
                 <a className={css(styles.linkLine)} href={invLink()} target='_blank' ><p className={css(styles.linkStyle)}>Live Site Link</p></a>
 
                 <div className={css(styles.picContainer)}>
-                    <img 
-                    // className={css(styles.picSizing)} 
-                    className={css(styles.smallSized)} 
-                    src={HomeScreenPic} alt='' />
+                    <img
+                        // className={css(styles.picSizing)} 
+                        className={css(styles.smallSized)}
+                        src={HomeScreenPic} alt='' />
                 </div>
 
                 <p className={css(styles.paragraphs)}>{invText1()}</p>
@@ -28,26 +28,31 @@ export default function InventoryWarehouse() {
                 <p className={css(styles.technologiesHeader)}>{technologiesIntroText()}</p>
                 <p className={css(styles.technologiesList)}>{technologiesUsed()}</p>
 
-                {/* <h4 className={css(styles.vidTextTop)}>{videoIntro()}</h4> */}
-                {/* <div className={css(styles.vidContainer)}> */}
-                {/* <iframe */}
-                {/* className={css(styles.videoDimensions)} */}
-                {/* src="https://www.youtube.com/embed/cT3LC5uyNrA" */}
-                {/* id="videoStyle" */}
-                {/* title='Served up walkthrough' frameBorder="0" */}
-                {/* allow="autoplay; encrypted-media" */}
-                {/* allowFullScreen></iframe> */}
-                {/* </div> */}
-                {/* <h4 className={css(styles.vidTextTop)}>{videoIntro2()}</h4> */}
-                {/* <div className={css(styles.vidContainer)}> */}
-                {/* <iframe */}
-                {/* className={css(styles.videoDimensions)} */}
-                {/* src="https://www.youtube.com/embed/mXc97QEu92M" */}
-                {/* id="videoStyle" */}
-                {/* title='Graphs and others' */}
-                {/* frameborder="0" */}
-                {/* allow="autoplay; encrypted-media" allowfullscreen></iframe> */}
-                {/* </div> */}
+
+
+
+                <h4 className={css(styles.vidTextTop, styles.marginSides)}>{vid1Intro()}</h4>
+                <div className={css(styles.vidContainer, styles.marginBottomMore)}>
+                    <iframe
+                        className={css(styles.videoDimensions)}
+                        src={vidLink1()}
+                        id="videoStyle"
+                        title='Inventory Warehouse Home Screen' frameBorder="0"
+                        allow="autoplay; encrypted-media"
+                        allowFullScreen></iframe>
+                </div>
+                <h4 className={css(styles.vidTextTop, styles.marginSides)}>{vid2Intro()}</h4>
+                <div className={css(styles.vidContainer, styles.marginBottomMore)}>
+                    <iframe
+                        className={css(styles.videoDimensions)}
+                        src={vidLink2()}
+                        id="videoStyle"
+                        title='Inventory Warehouse Clients Page'
+                        frameborder="0"
+                        allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                </div>
+                <h4 className={css(styles.vidTextTop, styles.marginSides)}>{vid2Outro()}</h4>
+
             </div>
         </div>
     )
@@ -208,6 +213,13 @@ const styles = StyleSheet.create({
         width: '90%',
     },
     smallSized: {
-        width: '50%',
+        width: '75%',
     },
+    marginBottomMore: {
+        marginBottom: '40px',
+    },
+    marginSides: {
+        marginLeft: '35px',
+        marginRight: '35px',
+    }
 });

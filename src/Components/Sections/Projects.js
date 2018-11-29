@@ -16,10 +16,9 @@ function Projects() {
             <h1 className={css(styles.bigFont, styles.under)}>Projects</h1>
             </ScrollableAnchor>
 
-            <InventoryWarehouse />
-            
             <ServedUp />
             <BIAClone />
+            <InventoryWarehouse />
             <ParentalGaming />
             <NSCClone />
         </div>
