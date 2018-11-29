@@ -6,6 +6,8 @@ import ServedUp from './ProjectsContents/ServedUpSurveys/ServedUp';
 import BIAClone from './ProjectsContents/BIAClone/BIAClone';
 import ParentalGaming from './ProjectsContents/ParentalGaming/ParentalGaming';
 import NSCClone from './ProjectsContents/NSCClone/NSCClone';
+import InventoryWarehouse from './ProjectsContents/InventoryWarehouse/InventoryWarehouse';
+
 function Projects() {
 
     return (
@@ -14,6 +16,8 @@ function Projects() {
             <h1 className={css(styles.bigFont, styles.under)}>Projects</h1>
             </ScrollableAnchor>
 
+            <InventoryWarehouse />
+            
             <ServedUp />
             <BIAClone />
             <ParentalGaming />
