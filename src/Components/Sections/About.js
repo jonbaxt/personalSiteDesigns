@@ -92,7 +92,7 @@ const styles = StyleSheet.create({
         height: '50%',
         padding: '15px',
         margin: '5px',
-        background: 'lightblue',
+        background: 'rgb(248, 248, 255)',
         boxShadow: '2px 2px 4px black',
         '@media(max-width: 770px)': {
             width: '250px',

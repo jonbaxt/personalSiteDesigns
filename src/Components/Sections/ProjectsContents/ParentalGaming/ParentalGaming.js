@@ -49,7 +49,7 @@ const styles = StyleSheet.create({
         textShadow: '0px 0px 0px black',
     },
     container: {
-        background: 'lightblue',
+        background: 'rgb(248, 248, 255)',
         width: '95%',
         marginTop: '25px',
         paddingTop: '20px',

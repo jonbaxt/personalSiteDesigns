@@ -24,13 +24,13 @@ function Contact() {
             </span>
             <div className={css(styles.middleBox, styles.bringToFront)}>
                 <ScrollableAnchor id={'contactSection'}>
-                    <h1 className={css(styles.bigFont)}>Contact</h1>
+                    <h1 className={css(styles.bigFont, styles.fontColoring)}>Contact</h1>
                 </ScrollableAnchor>
 
-                <p className={css(styles.textFormat)}>I'd love to hear from you! Feel free to contact me if you're interested in utilizing my skills.</p>
+                <p className={css(styles.textFormat, styles.fontColoring)}>Interested in my work and skills? Feel free to contact me.</p>
 
 
-                <p className={css(styles.textFormat)}>jonbaxt@gmail.com</p>
+                <p className={css(styles.textFormat, styles.fontColoring)}>jonbaxt@gmail.com</p>
                 <div className={css(styles.linksBox)} >
                     <a href='https://www.linkedin.com/in/jonbaxt/' rel="noopener noreferrer" target='_blank' >
                         <FontAwesomeIcon className={css(styles.linkSizing)} icon={faLinkedin} />
@@ -61,7 +61,7 @@ const styles = StyleSheet.create({
         zIndex: '100',
     },
     middleBox: {
-        background: 'lightblue',
+        background: 'rgb(248, 248, 255)',
         boxShadow: '2px 2px 4px black',
         width: '90%',
         height: '400px',
@@ -82,6 +82,10 @@ const styles = StyleSheet.create({
         '@media(max-width: 340px)': {
             fontSize: '20px',
         },
+    },
+    fontColoring: {
+        color: 'black',
+        textShadow: '0.5px 0.5px 0px gray',
     },
     textFormat: {
         textAlign: 'center',
@@ -106,7 +110,7 @@ const styles = StyleSheet.create({
         marginLeft: '60px',
         marginRight: '60px',
         cursor: 'pointer',
-        color: 'white',
+        color: 'black',
         // textShadow: '2px 2px 4px black',
         // boxShadow: '2px 2px 4px black',
         fontSize: '60px',

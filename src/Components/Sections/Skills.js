@@ -19,6 +19,12 @@ import ReduxLogo from '../../Resources/SkillsLogos/Redux.png';
 import sass from '../../Resources/SkillsLogos/sass.png';
 import slick from '../../Resources/SkillsLogos/slick.gif';
 import vue from '../../Resources/SkillsLogos/VuejsLogo.png';
+import herokulogo from '../../Resources/SkillsLogos/heroku-logo.jpg';
+// import pythonlogo from '../../Resources/SkillsLogos/python-logo.png';
+import pythonlogo from '../../Resources/SkillsLogos/python-alt.jpg';
+// import sshlogo from '../../Resources/SkillsLogos/ssh-logo.jpg';
+// import djangologo from '../../Resources/SkillsLogos/django-logo.png';
+import djangologo from '../../Resources/SkillsLogos/django-alt.png';
 
 
 function Skills() {
@@ -34,6 +40,8 @@ function Skills() {
                 <div className={css(styles.logoCont)}><img className={css(styles.smallerRes)} src={css3} alt='' /></div>
                 <div className={css(styles.logoCont)}><img className={css(styles.imgRes)} src={es6} alt='' /></div>
                 <div className={css(styles.logoCont)}><img className={css(styles.imgRes)} src={js} alt='' /></div>
+                <div className={css(styles.logoCont)}><img className={css(styles.imgRes)} src={pythonlogo} alt='' /></div>
+                <div className={css(styles.logoCont)}><img className={css(styles.imgRes)} src={djangologo} alt='' /></div>
                 {/* <div className={css(styles.logoCont)}><img className={css(styles.imgRes)} src={javaAlt} alt='' /></div> */}
                 <div className={css(styles.logoCont)}><img className={css(styles.imgRes)} src={NodeJS} alt='' /></div>
                 <div className={css(styles.logoCont)}><img className={css(styles.imgRes)} src={ReactLogo} alt='' /></div>
@@ -43,6 +51,7 @@ function Skills() {
                 <div className={css(styles.logoCont)}><img className={css(styles.imgRes)} src={Parralax} alt='' /></div>
                 <div className={css(styles.logoCont)}><img className={css(styles.smallestRes)} src={chartjs} alt='' /></div>
                 <div className={css(styles.logoCont)}><img className={css(styles.imgRes)} src={passport} alt='' /></div>
+                <div className={css(styles.logoCont)}><img className={css(styles.imgRes)} src={herokulogo} alt='' /></div>
                 <div className={css(styles.logoCont)}><img className={css(styles.imgRes)} src={postgres} alt='' /></div>
                 <div className={css(styles.logoCont)}><img className={css(styles.imgRes)} src={slick} alt='' /></div>
                 <div className={css(styles.logoCont)}><img className={css(styles.imgRes)} src={massive} alt='' /></div>
@@ -117,7 +126,7 @@ const styles = StyleSheet.create({
         margin: '10px',
         width: '200px',
         height: '200px',
-        background: 'lightblue',
+        background: 'rgb(248, 248, 255)',
         boxShadow: '2px 2px 4px black',
     },
     rowed: {
