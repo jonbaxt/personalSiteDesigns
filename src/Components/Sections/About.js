@@ -92,8 +92,9 @@ const styles = StyleSheet.create({
         height: '50%',
         padding: '15px',
         margin: '5px',
-        background: 'rgb(248, 248, 255)',
-        boxShadow: '2px 2px 4px black',
+        // background: 'rgb(248, 248, 255)',
+        background: 'rgba(255, 108, 13, 0.4)',
+        boxShadow: '1px 1px 9px grey',
         '@media(max-width: 770px)': {
             width: '250px',
         },
@@ -104,7 +105,7 @@ const styles = StyleSheet.create({
     image: {
         width: '300px',
         height: '300px',
-        boxShadow: '2px 2px 4px black',
+        boxShadow: '1px 1px 9px grey',
         '@media(max-width: 770px)': {
             width: '250px',
             height: '250px',
@@ -117,7 +118,7 @@ const styles = StyleSheet.create({
     logoStyle: {
         width: '200px',
         height: '200px',
-        boxShadow: '2px 2px 4px black',
+        boxShadow: '1px 1px 9px grey',
         borderRadius: '50%',
         '@media(max-width: 770px)': {
             width: '150px',
@@ -131,7 +132,7 @@ const styles = StyleSheet.create({
     logoStyleUvu: {
         width: '200px',
         height: '200px',
-        boxShadow: '2px 2px 4px black',
+        boxShadow: '1px 1px 9px grey',
         '@media(max-width: 770px)': {
             width: '150px',
             height: '150px',

@@ -69,13 +69,14 @@ const styles = StyleSheet.create({
         textShadow: '0px 0px 0px black',
     },
     container: {
-        background: 'rgb(248, 248, 255)',
+        background: 'rgba(255, 108, 13, 0.4)',
+        // background: 'rgb(248, 248, 255)',
         width: '95%',
         marginTop: '25px',
         paddingTop: '20px',
         paddingBottom: '20px',
         marginBottom: '40px',
-        boxShadow: '2px 2px 4px black',
+        boxShadow: '1px 1px 9px grey',
     },
     underline: {
         textDecorationLine: 'underline',

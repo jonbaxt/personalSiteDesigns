@@ -126,8 +126,9 @@ const styles = StyleSheet.create({
         margin: '10px',
         width: '200px',
         height: '200px',
-        background: 'rgb(248, 248, 255)',
-        boxShadow: '2px 2px 4px black',
+        background: 'rgba(255, 108, 13, 0.4)',
+        // background: 'rgb(248, 248, 255)',
+        boxShadow: '1px 1px 9px grey',
     },
     rowed: {
         display: 'flex',
