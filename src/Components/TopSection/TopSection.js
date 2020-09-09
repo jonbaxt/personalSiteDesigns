@@ -20,6 +20,7 @@ export default function TopSection() {
             <div className={css(styles.main)}>
                 <h1 className={css(styles.bigFont)}>Jonathan Baxter</h1>
 
+                <h1 className={css(styles.lessBig, styles.gapBetween)}>Full Stack &</h1>
                 <h1 className={css(styles.lessBig, styles.gapBetween)}>Web Developer</h1>
             </div>
         </div>

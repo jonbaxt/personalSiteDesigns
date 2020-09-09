@@ -5,6 +5,7 @@ import { configureAnchors } from 'react-scrollable-anchor';
 import "animate.css/animate.min.css";
 
 import TopSection from './Components/TopSection/TopSection';
+import NewAbout from './Components/Sections/NewAbout';
 import About from './Components/Sections/About';
 import Skills from './Components/Sections/Skills';
 import Projects from './Components/Sections/Projects';
@@ -31,6 +32,7 @@ class App extends Component {
           </div>
         </div>
         <TopSection />
+        <NewAbout />
         <About />
         <Skills />
         <Projects />
@@ -45,7 +47,7 @@ export default App;
 
 const styles = StyleSheet.create({
   universalStyling: {
-    fontFamily: 'Allerta Stencil, sans-serif',
+    fontFamily: 'Viaoda Libre, cursive',
     color: 'white',
     textShadow: '1px 1px 2px black',
   },

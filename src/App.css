@@ -1,7 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Anton|Cabin|Dosis|Indie+Flower|PT+Sans+Narrow|Playfair+Display|Song+Myung');
 
+@import url('https://fonts.googleapis.com/css?family=Viaoda+Libre&display=swap');
+
 .App {
-  font-family: 'Dosis', sans-serif;
+  font-family: 'Viaoda Libre', cursive;
+  /* font-family: 'Dosis', sans-serif; */
 }
 
 p, h1, h2, h3, h4, h5, h6 {
