@@ -15,12 +15,13 @@ function NewAbout() {
 
     return (
         <div className={css(styles.mainArea)}>
-            <h1 className={css(styles.bigFont, styles.underline)}>About</h1>
+            <ScrollableAnchor id={'aboutSection'}>
+                <h1 className={css(styles.bigFont, styles.underline)}>About</h1>
+            </ScrollableAnchor>
+            <img src={PortPic} className={css(styles.imageSize)} />
             <div className={css(styles.infoContainer)}>
-
-                <img src={PortPic} className={css(styles.imageSize)} />
-                <div style={{marginLeft: '30px', marginRight: '30px', fontSize: '20px'}}>
-                <div className={css(styles.infoContainer)} >
+                <div style={{ marginLeft: '30px', marginRight: '30px', fontSize: '20px' }}>
+                    <div className={css(styles.infoContainer2)} >
                         <img src={BYUID} className={css(styles.imageSize2)} />
                         <img src={Uvu} className={css(styles.imageSize2)} />
                         <img src={devMtn} className={css(styles.imageSize2)} />
@@ -30,7 +31,7 @@ function NewAbout() {
                     <p>My work ethic and dedication to delivering quality comes from a unique background of skills I acquired prior to entering into Development. I worked with the State of Utah in the department of human services using my Bachelors of Science in Sociology from BYU-Idaho, which helped me learn skills in customer care and team building skills.</p>
                     <br></br>
                     <p>I study coding independently and have taken courses from UVU and DevMountain to enhance my skills as a developer. I am always looking for ways to enhance my skills as a developer.</p>
-                    <div className={css(styles.infoContainer)} >
+                    <div className={css(styles.infoContainer2)} >
                         <img src={UtahSeal} className={css(styles.imageSize2)} />
                         <img src={bbw} className={css(styles.imageSize2)} />
                         <img src={gt} className={css(styles.imageSize2)} />
@@ -147,13 +148,21 @@ const styles = StyleSheet.create({
     },
     imageSize2: {
         width: '100px',
-        marginLeft: '80px',
-        marginRight: '80px',
+        // marginLeft: '80px',
+        // marginRight: '80px',
     },
     infoContainer: {
         width: '100%',
         display: 'flex',
         flexDirection: 'row',
+        // border: '1px solid black',
+    },
+    
+    infoContainer2: {
+        width: '100%',
+        display: 'flex',
+        flexDirection: 'row',
+        justifyContent: 'space-around',
         // border: '1px solid black',
     }
 });
