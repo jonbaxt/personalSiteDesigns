@@ -30,7 +30,7 @@ function NewAbout() {
                     <br></br>
                     <p>My work ethic and dedication to delivering quality comes from a unique background of skills I acquired prior to entering into Development. I worked with the State of Utah in the department of human services using my Bachelors of Science in Sociology from BYU-Idaho, which helped me learn skills in customer care and team building skills.</p>
                     <br></br>
-                    <p>I study coding independently and have taken courses from UVU and DevMountain to enhance my skills as a developer. I am always looking for ways to enhance my skills as a developer.</p>
+                    <p>I study coding independently and have taken courses from UVU and DevMountain to enhance my skills as a developer. I am always looking for ways to improve and gain new abilities and skills.</p>
                     <div className={css(styles.infoContainer2)} >
                         <img src={UtahSeal} className={css(styles.imageSize2)} />
                         <img src={bbw} className={css(styles.imageSize2)} />
