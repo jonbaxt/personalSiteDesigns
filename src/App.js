@@ -6,7 +6,7 @@ import "animate.css/animate.min.css";
 
 import TopSection from './Components/TopSection/TopSection';
 import NewAbout from './Components/Sections/NewAbout';
-import About from './Components/Sections/About';
+// import About from './Components/Sections/About';
 import Skills from './Components/Sections/Skills';
 import Projects from './Components/Sections/Projects';
 import Contact from './Components/Sections/Contact';
@@ -33,7 +33,7 @@ class App extends Component {
         </div>
         <TopSection />
         <NewAbout />
-        <About />
+        {/* <About /> */}
         <Skills />
         <Projects />
 
