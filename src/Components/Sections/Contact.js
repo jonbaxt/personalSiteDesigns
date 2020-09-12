@@ -18,7 +18,7 @@ function Contact() {
 
     return (
         <div className={css(styles.main)}>
-            <span id='Slides'>
+            <span id='Slides'> 
                 <BackgroundSlideshow
                     images={[tech1, tech2, tech3, tech4, tech5, tech6]} />
             </span>
@@ -61,7 +61,7 @@ const styles = StyleSheet.create({
         zIndex: '100',
     },
     middleBox: {
-        background: 'rgba(255, 108, 13, 0.4)',
+        background: 'rgba(255, 108, 13, 0.7)',
         // background: 'rgb(248, 248, 255)',
         boxShadow: '1px 1px 9px grey',
         width: '90%',
@@ -91,12 +91,13 @@ const styles = StyleSheet.create({
     textFormat: {
         textAlign: 'center',
         marginTop: '40px',
-        fontSize: '20px',
+        fontSize: '28px',
+        fontWeight: 'bold',
         '@media(max-width: 770px)': {
-            fontSize: '15px',
+            fontSize: '25px',
         },
         '@media(max-width: 610px)': {
-            fontSize: '12px',
+            fontSize: '20px',
         },
     },
     linksBox: {
